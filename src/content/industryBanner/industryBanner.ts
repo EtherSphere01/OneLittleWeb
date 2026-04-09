@@ -1,12 +1,12 @@
 import { createElement } from "react";
-import { AirbnbBanner } from "@/svg/IndustryBanner/AirbnbBanner";
-import { IndustryBannerProps } from "@/types/industryBanner";
-import { BookingBanner } from "@/svg/IndustryBanner/BookingBanner";
-import { VrboBanner } from "@/svg/IndustryBanner/VrboBanner";
-import { TripadvisorBanner } from "@/svg/IndustryBanner/TripadvisorBanner";
-import { AgodaBanner } from "@/svg/IndustryBanner/AgodaBanner";
-import { ExpediaBanner } from "@/svg/IndustryBanner/ExpediaBanner";
-import { HomeToGoBanner } from "@/svg/IndustryBanner/HomeToGoBanner";
+import { AirbnbBanner } from "@/svg/LandingPage/IndustryBanner/AirbnbBanner";
+import { IndustryBannerProps } from "@/types/industryBanner.types";
+import { BookingBanner } from "@/svg/LandingPage/IndustryBanner/BookingBanner";
+import { VrboBanner } from "@/svg/LandingPage/IndustryBanner/VrboBanner";
+import { TripadvisorBanner } from "@/svg/LandingPage/IndustryBanner/TripadvisorBanner";
+import { AgodaBanner } from "@/svg/LandingPage/IndustryBanner/AgodaBanner";
+import { ExpediaBanner } from "@/svg/LandingPage/IndustryBanner/ExpediaBanner";
+import { HomeToGoBanner } from "@/svg/LandingPage/IndustryBanner/HomeToGoBanner";
 
 export const industryBanner: IndustryBannerProps[] = [
     {

@@ -3,7 +3,7 @@ import { companyItems } from "@/content/footer/companyItems";
 import { helpItems } from "@/content/footer/helpItems";
 import { resourcesItems } from "@/content/footer/resourcesItems";
 import { socialMediaItems } from "@/content/footer/socialMediaItems";
-import { footerItem, socialMediaItem } from "@/types/footer";
+import { footerItem, socialMediaItem } from "@/types/footer.types";
 import { GoogleLogo } from "@/svg/Header/GoogleLogo";
 
 const footerSections: Array<{ title: string; items: footerItem[] }> = [

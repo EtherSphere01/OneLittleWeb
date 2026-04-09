@@ -1,4 +1,19 @@
 import { industryBanner } from "@/content/industryBanner/industryBanner";
+import { IndustryBannerProps } from "@/types/industryBanner.types";
+
+const Logos = ({ items }: { items: IndustryBannerProps[] }) => (
+    <>
+        {items.map((item, index) => (
+            <div
+                key={index}
+                className="shrink-0"
+                aria-hidden={index > 0 ? "true" : undefined}
+            >
+                {item.logo}
+            </div>
+        ))}
+    </>
+);
 
 export default function IndustryBanner() {
     return (
@@ -8,20 +23,9 @@ export default function IndustryBanner() {
             </h3>
             <div className="mt-9 bg-[#F6F6F6] py-5 overflow-hidden">
                 <div className="animate-scroll flex items-center gap-15.25 px-3 lg:px-6">
-                    {industryBanner.map((item, index) => (
-                        <div key={index} className="shrink-0">
-                            {item.logo}
-                        </div>
-                    ))}
-                    {industryBanner.map((item, index) => (
-                        <div
-                            key={`duplicate-${index}`}
-                            className="shrink-0"
-                            aria-hidden="true"
-                        >
-                            {item.logo}
-                        </div>
-                    ))}
+                    <Logos items={industryBanner} />
+                    <Logos items={industryBanner} />
+                    <Logos items={industryBanner} />
                 </div>
             </div>
         </div>

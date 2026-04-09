@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { RightArrow } from "@/svg/Header/RightArrow";
-import { AirbnbLogo } from "@/svg/HeroSection/AirbnbLogo";
-import { BookingLogo } from "@/svg/HeroSection/BookingLogo";
-import { TripadvisorLogo } from "@/svg/HeroSection/Tripadvisor";
-import { VrboLogo } from "@/svg/HeroSection/VrboLogo";
+import { AirbnbLogo } from "@/svg/LandingPage/HeroSection/AirbnbLogo";
+import { BookingLogo } from "@/svg/LandingPage/HeroSection/BookingLogo";
+import { TripadvisorLogo } from "@/svg/LandingPage/HeroSection/Tripadvisor";
+import { VrboLogo } from "@/svg/LandingPage/HeroSection/VrboLogo";
 import React from "react";
 
 export default function HeroSection() {

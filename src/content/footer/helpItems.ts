@@ -1,4 +1,4 @@
-import { footerItem } from "@/types/footer";
+import { footerItem } from "@/types/footer.types";
 
 export const helpItems: footerItem[] = [
     {
