@@ -37,6 +37,8 @@ export default function HeroSection() {
             <h6 className="text-[14px] font-medium mt-6.75 underline underline-offset-4">
                 See Pricing
             </h6>
+
+            <div className="bg-[#FFFFFF9E] sm:h-70 sm:w-140 lg:h-130.75 lg:w-230.75 rounded-[80%] absolute sm:top-0 sm:left-0 md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 -z-10"></div>
             <div className="hidden md:block">
                 <div
                     className="h-3.25 w-3.25 rounded-full bg-[#635BFF] absolute top-35 left-30 animate-float"
