@@ -4,7 +4,7 @@ import { ClipboardIcon } from "@/svg/LandingPage/ServiceSection/ClipboardIcon";
 import { SupportIcon } from "@/svg/LandingPage/ServiceSection/SupportIcon";
 import { ThumbsUpIcon } from "@/svg/LandingPage/ServiceSection/ThumbsUpIcon";
 import { TrackIcon } from "@/svg/LandingPage/ServiceSection/TrackIcon";
-import { ServiceCardProps } from "@/types/serviceCard.types";
+import { ServiceCardProps } from "@/types/landingPage/serviceCard.types";
 import { createElement } from "react";
 
 export const services: ServiceCardProps[] = [

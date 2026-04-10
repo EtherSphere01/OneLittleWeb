@@ -1,6 +1,6 @@
 import React from "react";
 import ServiceCard from "./ServiceCard";
-import { services } from "@/content/serviceSection/services";
+import { services } from "@/content/landingPage/services";
 
 export default function ServiceSection() {
     return (
@@ -15,7 +15,7 @@ export default function ServiceSection() {
                 nisi ut aliquip ex ea commodo consequat.
             </p>
 
-            <div className="mt-13.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="mt-13.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto">
                 {services.map((service) => (
                     <ServiceCard key={service.id} serviceCardItems={service} />
                 ))}

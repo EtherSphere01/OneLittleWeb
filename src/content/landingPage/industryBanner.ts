@@ -1,6 +1,6 @@
 import { createElement } from "react";
 import { AirbnbBanner } from "@/svg/LandingPage/IndustryBanner/AirbnbBanner";
-import { IndustryBannerProps } from "@/types/industryBanner.types";
+import { IndustryBannerProps } from "@/types/landingPage/industryBanner.types";
 import { BookingBanner } from "@/svg/LandingPage/IndustryBanner/BookingBanner";
 import { VrboBanner } from "@/svg/LandingPage/IndustryBanner/VrboBanner";
 import { TripadvisorBanner } from "@/svg/LandingPage/IndustryBanner/TripadvisorBanner";

@@ -1,6 +1,6 @@
 import React from "react";
 import { TwitterIcon } from "@/svg/Footer/TwitterIcon";
-import { socialMediaItem } from "@/types/footer.types";
+import { socialMediaItem } from "@/types/footer/footer.types";
 import { FacebookIcon } from "@/svg/Footer/FacebookIcon";
 import { InstagramIcon } from "@/svg/Footer/InstagramIcon";
 import { GithubIcon } from "@/svg/Footer/GithubIcon";

@@ -1,5 +1,5 @@
-import { industryBanner } from "@/content/industryBanner/industryBanner";
-import { IndustryBannerProps } from "@/types/industryBanner.types";
+import { industryBanner } from "@/content/landingPage/industryBanner";
+import { IndustryBannerProps } from "@/types/landingPage/industryBanner.types";
 
 const Logos = ({ items }: { items: IndustryBannerProps[] }) => (
     <>

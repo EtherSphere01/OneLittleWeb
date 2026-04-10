@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 import { GoogleLogo } from "@/svg/Header/GoogleLogo";
 import { Button } from "../ui/button";
 import { RightArrow } from "@/svg/Header/RightArrow";
-import { navItem } from "@/types/header.types";
+import { navItem } from "@/types/header/header.types";
 
 export default function Header() {
     const pathname = usePathname();

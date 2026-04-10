@@ -3,7 +3,7 @@ import { companyItems } from "@/content/footer/companyItems";
 import { helpItems } from "@/content/footer/helpItems";
 import { resourcesItems } from "@/content/footer/resourcesItems";
 import { socialMediaItems } from "@/content/footer/socialMediaItems";
-import { footerItem, socialMediaItem } from "@/types/footer.types";
+import { footerItem, socialMediaItem } from "@/types/footer/footer.types";
 import { GoogleLogo } from "@/svg/Header/GoogleLogo";
 
 const footerSections: Array<{ title: string; items: footerItem[] }> = [
@@ -15,7 +15,7 @@ const footerSections: Array<{ title: string; items: footerItem[] }> = [
 export default function Footer() {
     const currentYear = new Date().getFullYear();
     return (
-        <footer className="mt-auto border-t border-[#D6D6D6]">
+        <footer className="mt-auto border-t border-[#D6D6D6] text-[#18181B]">
             <div className="bg-white py-20.75">
                 <div className="mx-auto w-full container px-3 lg:px-6">
                     <div className="grid grid-cols-1 gap-10 md:grid-cols-[2fr_1fr_1fr_1fr] md:gap-8">
