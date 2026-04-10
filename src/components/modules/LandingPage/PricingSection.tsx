@@ -10,7 +10,7 @@ export default function PricingSection() {
     const [billingCycle, setBillingCycle] = useState<BillingCycle>("monthly");
 
     return (
-        <div className="mt-18.25 px-3 lg:px-6">
+        <div id="pricing" className="mt-18.25 px-3 lg:px-6">
             <h1 className="text-[40px] font-bold text-center text-[#191D23]">
                 Airbnb Assistant <span className="text-[#ED3C6A]">Pricing</span>
             </h1>

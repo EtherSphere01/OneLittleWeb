@@ -26,6 +26,7 @@ export default function RootLayout({
             className={cn(
                 "h-full",
                 "antialiased",
+                "scroll-smooth",
                 dmSans.variable,
                 manrope.variable,
             )}
