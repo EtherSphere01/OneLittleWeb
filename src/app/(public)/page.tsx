@@ -1,3 +1,4 @@
+import FAQSection from "@/components/modules/LandingPage/FAQSection";
 import GettingStartedSection from "@/components/modules/LandingPage/GettingStartedSection";
 import HeroSection from "@/components/modules/LandingPage/HeroSection";
 import IndustryBanner from "@/components/modules/LandingPage/IndustryBanner";
@@ -16,6 +17,7 @@ export default function Home() {
             <ToolsSection />
             <GettingStartedSection />
             <ReviewSection />
+            <FAQSection />
         </div>
     );
 }
