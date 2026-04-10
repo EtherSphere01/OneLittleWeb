@@ -1,36 +1,174 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Airbnb Assistants
 
-## Getting Started
+Live Link: https://onelittleweb-azure.vercel.app
 
-First, run the development server:
+Landing page project for Airbnb assistant and property management services, built with Next.js App Router, TypeScript, and Tailwind CSS.
+
+## Tech Stack
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript 5
+- Tailwind CSS 4
+- class-variance-authority + tailwind-merge for utility composition
+- Radix UI primitives + shadcn-style UI patterns
+- Lucide React icons
+
+## Prerequisites
+
+- Node.js 20+
+- One package manager:
+- npm (10+ recommended)
+- pnpm (10+ recommended)
+- yarn (1.22+ or modern yarn)
+
+## Installation
+
+Use only one package manager in your local setup.
+
+### Using npm
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Using pnpm
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Using yarn
 
-## Learn More
+```bash
+yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Run The Project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# npm
+npm run dev
 
-## Deploy on Vercel
+# pnpm
+pnpm dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# yarn
+yarn dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+App runs at: http://localhost:3000
+
+### Production Build
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+```
+
+### Start Production Server
+
+```bash
+# npm
+npm run start
+
+# pnpm
+pnpm start
+
+# yarn
+yarn start
+```
+
+### Lint
+
+```bash
+# npm
+npm run lint
+
+# pnpm
+pnpm lint
+
+# yarn
+yarn lint
+```
+
+## Available Scripts
+
+- dev: Start local development server
+- build: Create production build
+- start: Run production server
+- lint: Run ESLint
+
+## Project Structure
+
+```text
+src/
+	app/
+		(public)/
+			page.tsx
+		layout.tsx
+		globals.css
+	components/
+		modules/LandingPage/
+		shared/
+		ui/
+	content/
+		landingPage/
+		header/
+		footer/
+	svg/
+		LandingPage/
+		Header/
+		Footer/
+	types/
+		landingPage/
+```
+
+## Main Dependencies
+
+- next: Framework/runtime and routing
+- react, react-dom: UI rendering
+- tailwindcss, @tailwindcss/postcss: Styling system
+- class-variance-authority: Variant-based class patterns
+- clsx + tailwind-merge: Conditional class handling and dedupe
+- radix-ui: Headless primitives used in UI components
+- shadcn: Utilities/patterns for component setup
+- lucide-react: Icon set used across sections
+- tw-animate-css: Animation utilities
+
+## Fonts And Styling Notes
+
+- DM Sans is used as the primary site font.
+- Manrope is available as a secondary font for specific sections/components.
+- Global styles are managed in `src/app/globals.css`.
+- The project includes a custom Airbnb-themed favicon at `public/airbnb-favicon.svg`.
+
+## Deployment (Vercel)
+
+### First-time setup
+
+```bash
+npx vercel
+```
+
+### Production deploy
+
+```bash
+npx vercel --prod
+```
+
+Vercel auto-detects Next.js settings for this project.
+
+## Troubleshooting
+
+- If packages are out of sync: remove `node_modules` and reinstall.
+- If types fail after dependency changes: run a clean install and rebuild.
+- If styles look incorrect: ensure Tailwind CSS build is running and `globals.css` is included in `src/app/layout.tsx`.
