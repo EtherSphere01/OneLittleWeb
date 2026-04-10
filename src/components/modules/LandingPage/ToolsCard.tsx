@@ -1,4 +1,4 @@
-import { ToolCardProps } from "@/types/landingPage/toolCard.type";
+import { ToolCardProps } from "@/types/landingPage/toolCard.types";
 
 export default function ToolsCard({ toolItem }: { toolItem: ToolCardProps }) {
     return (

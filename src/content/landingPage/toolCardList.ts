@@ -4,7 +4,7 @@ import { HostfullyIcon } from "@/svg/LandingPage/ToolsSection.tsx/HostfullyIcon"
 import { LodgifyIcon } from "@/svg/LandingPage/ToolsSection.tsx/LodgifyIcon";
 import { PriceLabsIcon } from "@/svg/LandingPage/ToolsSection.tsx/PriceLabsIcon";
 import { WheelHouseIcon } from "@/svg/LandingPage/ToolsSection.tsx/WheelHouseIcon";
-import { ToolCardProps } from "@/types/landingPage/toolCard.type";
+import { ToolCardProps } from "@/types/landingPage/toolCard.types";
 import { createElement } from "react";
 
 export const ToolCardList: ToolCardProps[] = [
