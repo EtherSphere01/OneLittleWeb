@@ -17,7 +17,7 @@ export default function PricingCard({
     return (
         <article
             className={cn(
-                "font-manrope rounded-[10px] border px-4 py-6 md:px-6 md:py-10 ",
+                "font-manrope rounded-[10px] border px-4 py-6 md:px-6 md:py-10  hover:shadow-[0_4px_90.3px_0_rgba(215,205,207,0.47)]",
                 pricingItem.theme.cardBackgroundClassName,
                 pricingItem.theme.cardBorderClassName,
             )}
